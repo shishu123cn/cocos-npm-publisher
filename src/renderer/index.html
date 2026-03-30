@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cocos-npm-publisher</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="header">
+        <div class="header-icon">📦</div>
+        <div class="header-text">
+          <div class="title">NPM 包发布工具</div>
+          <div class="subtitle">Cocos Creator Extension Publisher</div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div id="plugins" class="plugins"></div>
+      </div>
+
+      <div class="console">
+        <div class="console-header">
+          <div class="console-title">Console</div>
+          <button id="btn-clear-console" class="btn btn-sm btn-ghost">清空</button>
+        </div>
+        <textarea id="console-text" class="console-text" readonly></textarea>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+

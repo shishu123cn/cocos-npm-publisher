@@ -1,0 +1,28 @@
+{
+  "name": "cocos-npm-publisher",
+  "package_version": 2,
+  "version": "1.0.0",
+  "description": "Cocos Creator 插件发布管理器：基于每个扩展目录的 .npmrc 选择 registry 并执行 npm publish",
+  "author": "cocos-npm-publisher",
+  "license": "MIT",
+  "main": "src/main/index.js",
+  "contributions": {
+    "menu": [
+      {
+        "path": "i18n:menu.extension/i18n:cocos-npm-publisher.name",
+        "label": "i18n:cocos-npm-publisher.menu.open",
+        "message": "open-panel"
+      }
+    ],
+    "messages": {
+      "open-panel": {
+        "public": true,
+        "description": "打开插件发布面板",
+        "methods": [
+          "openPanel"
+        ]
+      }
+    }
+  }
+}
+
